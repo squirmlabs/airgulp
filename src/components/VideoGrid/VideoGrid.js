@@ -18,7 +18,7 @@ export function VideoGrid(props) {
   return (
     <React.Fragment>
       <VideoGridHeader title={props.title} />
-      <div className="video-grid">{gridItems}</div>
+      <div className="video-grid grid-col-4">{gridItems}</div>
       {divider}
     </React.Fragment>
   );
