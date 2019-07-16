@@ -1,0 +1,28 @@
+@import '../../styles/shared.scss';
+
+$sidebar-hover-color: #ebebeb;
+.ui.menu.fixed.side-nav {
+  background-color: #F8F9FB;
+  margin-top: $header-nav-height;
+  overflow-y: auto;
+  padding-bottom: $header-nav-height;
+
+  &.shadowless {
+    box-shadow: none;
+  }
+  &.borderless {
+    border: none;
+  }
+  .sidebar-item:hover {
+    background: $sidebar-hover-color;
+  }
+
+  .subscription:hover {
+    background: #ebebeb;
+    cursor: pointer;
+  }
+}
+
+.side-nav.ui.vertical.menu {
+  width: $sidebar-left-width;
+}
