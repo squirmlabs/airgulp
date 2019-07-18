@@ -9,7 +9,7 @@ import { SideBarHeader } from './SideBarHeader/SideBarHeader';
 export class SideBar extends React.Component {
   render() {
     return (
-      <Menu borderless vertical stackable size="medium" fixed="left" className="side-nav shadowless borderless">
+      <Menu borderless vertical stackable size="small" fixed="left" className="side-nav shadowless borderless">
         <SideBarItem path="/" label="Home" icon="home" />
         <SideBarItem path="/feed/trending" label="Artists" icon="fire" />
         <SideBarItem label="Songs" icon="fire" />

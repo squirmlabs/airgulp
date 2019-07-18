@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AudioAnaylzer renders null if id in audio-analyzer component not specified 1`] = `""`;
+
+exports[`AudioAnaylzer renders audio-analyzer component correctly 1`] = `
+<div
+  className="audio-analyzer-container"
+>
+  <div
+    className="audio-analyzer"
+  >
+    <iframe
+      allow="autoplay; encrypted-media"
+      allowFullScreen={true}
+      className="audio-analyzer-player"
+      frameBorder="0"
+      src="https://www.youtube.com/embed/HAuXJVI_bUs"
+      title="audio-analyzer"
+    />
+  </div>
+</div>
+`;

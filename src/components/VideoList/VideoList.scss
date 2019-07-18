@@ -3,11 +3,12 @@
 .video-list {
   display: grid;
   grid: auto / auto;
-  padding-left: 2rem;
   padding-top: 24px;
-  margin-left: $sidebar-left-width;
+  margin-left: 17rem;
   grid-row-gap: 10px;
   max-width: 900px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
 }
 
 @media(max-width: 1200px) {
