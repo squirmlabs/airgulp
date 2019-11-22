@@ -22707,7 +22707,7 @@ if ($('#waveform').length > 0) {
             container: '#waveform',
             backend: 'MediaElement',
             waveColor: $('body').hasClass('theme-dark') ? '#243049' : '#ecf0f5',
-            progressColor: '#ff1744',
+            progressColor: '#C792EA',
             height: 50,
             responsive: false,
             barWidth: 3,
@@ -26737,7 +26737,7 @@ function _init() {
 
                     $(".sidebar").slimscroll({
                         height: ($(window).height()) + "px",
-                        color: "#ff1744",
+                        color: "#C792EA",
                         size: "3px",
                         distance: "5px",
                         //railVisible: true,
