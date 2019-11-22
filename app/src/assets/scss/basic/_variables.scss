@@ -5,7 +5,7 @@ $default-text-color: #9CA8B0;
 $brand-border2: #e1e8ee;
 $white: #fff;
 // fonts 
-$primary-font: "Roboto", sans-serif,
+$primary-font: "Poppins", sans-serif,
 serif;
 $secondary-font: 'Open Sans',
 sans-serif;
@@ -14,26 +14,26 @@ $font-weight-100: 100;
 
 
 $brand-border: #e1e8ee; // previews borders
-$brand-border-dark: #0c101b; // previews borders
+$brand-border-dark: #212121; // previews borders
 $brand-bg: #F5F8FA; // previews borders
 
 //Bootstrap Overide
 
 $blue: #03a9f4;
-$indigo: #6610f2;
-$purple: #6f42c1;
-$pink: #e83e8c;
-$red: #ED5564;
+$indigo: #89DDFF;
+$purple: #0f0e11;
+$pink: #89DDFF;
+$red: #C792EA;
 $orange: #fd7e14;
 $yellow: #FCCE54;
 $green: #7dc855;
 $teal: #20c997;
 $cyan: #78BCEE;
-$dark: #0c101b;
+$dark: #212121;
 $border: rgba(225, 232, 238, 1);
 
-$primary: #ff1744 !default;
-$brand-primary: #ff1744 !default; // #337ab7
+$primary: #89DDFF !default;
+$brand-primary: #89DDFF !default; // #337ab7
 $brand-success: $green !default;
 $brand-info: $cyan !default;
 $brand-warning: $yellow !default;
@@ -79,7 +79,7 @@ $boxed-layout-max-width: 1024px;
 
 // Body background (Affects main content background only)
 $body-bg: #ecf0f5;
-$body-dark: #131722;
+$body-dark: #212121;
 //$content-bg: #ecf0f5;
 
 // SIDEBAR SKINS

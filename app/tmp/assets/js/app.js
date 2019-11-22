@@ -23235,7 +23235,7 @@ function mapRender(selector, address, type, zoom_lvl, mapPin) {
         elementType: "geometry",
         stylers: [
             {
-                hue: "#131722"
+                hue: "#212121"
             }, {
                 saturation: 50
             }]
