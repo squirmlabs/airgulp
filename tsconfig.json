@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -27,5 +31,7 @@
     "node_modules/**/*.ts",
     "coverage/lcov-report/*.js"
   ],
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }
