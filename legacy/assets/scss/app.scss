@@ -16,10 +16,10 @@ Version:    1.0.0
 */
 //// Necessary Modules
 @import 'basic/variables';
-@import "../../../../node_modules/bootstrap/scss/bootstrap";
-@import "../../../../node_modules/lightslider/dist/css/lightslider";
-@import "../../../../node_modules/lightgallery/dist/css/lightgallery.min";
-@import "../../../../node_modules/node-snackbar/dist/snackbar.min";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/lightslider/dist/css/lightslider";
+@import "../../../node_modules/lightgallery/dist/css/lightgallery.min";
+@import "../../../node_modules/node-snackbar/dist/snackbar.min";
 @import '../fonts/lineicons';
 @import '../fonts/Poppins/Poppins';
 @import '../scss/libs/animations';
