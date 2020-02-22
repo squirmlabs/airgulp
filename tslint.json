@@ -1,0 +1,16 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "no-debugger": false,
+    "no-console": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "legacy/**/*.js",
+      "node_modues/*.ts",
+      "coverage/lcov-report/**/*.js"
+    ],
+    "include": []
+  }
+}
