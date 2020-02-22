@@ -39,14 +39,14 @@ var tf = {
 };
 
 var paths = {
-  src: 'legacy/**/*',
-  srcHTML: 'legacy/*.html',
-  srcCSS: 'legacy/assets/scss/',
-  srcJS: 'legacy/assets/js/',
-  srcPhp: 'legacy/assets/php/**/*',
-  srcImages: 'legacy/assets/img/**/*',
-  srcmedia: 'legacy/assets/media/**/*',
-  srcFonts: 'legacy/assets/fonts/**/*',
+  src: 'src/**/*',
+  srcHTML: 'src/*.html',
+  srcCSS: 'src/assets/scss/',
+  srcJS: 'src/assets/js/',
+  srcPhp: 'src/assets/php/**/*',
+  srcImages: 'src/assets/img/**/*',
+  srcmedia: 'src/assets/media/**/*',
+  srcFonts: 'src/assets/fonts/**/*',
 
   tmp: 'public/',
   tmpIndex: 'public/index.html',
@@ -69,7 +69,7 @@ var paths = {
 };
 
 var bases = {
-  app: 'legacy/',
+  app: 'src/',
   tmp: 'public/',
   dist: 'dist/',
   demoFolder: app.slug + '-' + app.version + '/'
@@ -178,21 +178,21 @@ gulp.task(
         baseDir: bases.tmp
       }
     });
-    gulp.watch('legacy/assets/img/**/*.*', gulp.series('images'));
-    // gulp.watch('legacy/assets/fonts/**/*',gulp.series('copy'));
-    gulp.watch('legacy/assets/php/**/*', gulp.series('php'));
-    gulp.watch('legacy/assets/scss/**/*', gulp.series('styles'));
-    gulp.watch('legacy/assets/js/**/*', gulp.series('scripts'));
-    gulp.watch('legacy/*/*', gulp.series('views-rebuild'));
+    gulp.watch('src/assets/img/**/*.*', gulp.series('images'));
+    // gulp.watch('src/assets/fonts/**/*',gulp.series('copy'));
+    gulp.watch('src/assets/php/**/*', gulp.series('php'));
+    gulp.watch('src/assets/scss/**/*', gulp.series('styles'));
+    gulp.watch('src/assets/js/**/*', gulp.series('scripts'));
+    gulp.watch('src/*/*', gulp.series('views-rebuild'));
 
-    gulp.watch('legacy/*.html').on('change', function(file) {
+    gulp.watch('src/*.html').on('change', function(file) {
       var leafname = file
         .split('\\')
         .pop()
         .split('/')
         .pop();
       return gulp
-        .src('legacy/' + leafname)
+        .src('src/' + leafname)
         .pipe(
           injectPartials({
             removeTags: true,
@@ -321,7 +321,7 @@ gulp.task(
 
 gulp.task('previews-resize', function() {
   return gulp
-    .src('legacy/assets/img/previews/**/*')
+    .src('src/assets/img/previews/**/*')
     .pipe(
       gm(
         function(gmfile) {
