@@ -191,6 +191,7 @@ gulp.task(
         .pop()
         .split('/')
         .pop();
+        
       return gulp
         .src('src/' + leafname)
         .pipe(
