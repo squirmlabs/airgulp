@@ -21,7 +21,7 @@
   position: relative;
   &.has-icon {
     i {
-    font-size: 14px;
+    font-size: 16pt;
     position: absolute;
       top: 25px;
     -webkit-transform: translateY(-50%);
@@ -76,7 +76,7 @@ form {
   border: 2px solid $brand-border;
   border-radius: 5px;
   color: #43484d;
-  font-size: 14px;
+  font-size: 16pt;
   height: 50px;
   padding: 15px;
   width: 100%;
@@ -149,7 +149,7 @@ input[type="checkbox"], input[type="radio"] {
     box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.26);
   }
   @include tablet-and-phone {
-    font-size: 14px;
+    font-size: 16pt;
   }
 }
 .btn-img {
@@ -260,7 +260,7 @@ a.btn-fab {
   top: -15px;
 }
 .paper-nav-toggle {
-  width: 25px;
+  width: 48px;
   height: 25px;
   cursor: pointer;
   text-decoration: none;
@@ -277,7 +277,7 @@ a.btn-fab {
   i {
     position: relative;
     display: inline-block;
-    width: 25px;
+    width: 48px;
     height: 2px;
     color: $default-text-color;
     font: bold 14px/.4 Helvetica;
@@ -287,7 +287,7 @@ a.btn-fab {
     transition: all .2s ease-out;
     &::before, &::after {
       content: '';
-      width: 25px;
+      width: 48px;
       height: 2px;
       background: $default-text-color;;
       position: absolute;
@@ -349,7 +349,7 @@ a.btn-fab {
 }
 
 .paper-nav-toggle {
-  position: absolute;
+  // position: absolute;
   right: 0;
   top: 10px;
   padding: 6px 0 0 0;
@@ -364,7 +364,7 @@ a.btn-fab {
   text-align: center;
 
   @include tablet-and-phone {
-    position: absolute;
+    // position: absolute;
     display: block;
   }
   .left {
