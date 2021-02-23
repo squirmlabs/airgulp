@@ -8,7 +8,7 @@ export function AppLayout(props) {
   return (
     <ScrollToTop>
       <div className="app-layout">
-        <HeaderNav />
+        {/* <HeaderNav /> */}
         <AudioAnalyser />
         {props.children}
       </div>

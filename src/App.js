@@ -16,9 +16,9 @@ class App extends Component {
     return (
       <AppLayout>
         <Switch>
-          <Route path="/feed/trending" component={Trending} />
+          {/* <Route path="/feed/trending" component={Trending} />
           <Route path="/results" render={() => <Search key={this.props.location.key} />} />
-          <Route path="/watch" render={() => <Watch key={this.props.location.key} />} />
+          <Route path="/watch" render={() => <Watch key={this.props.location.key} />} /> */}
           <Route path="/" component={Home} />
         </Switch>
       </AppLayout>
